@@ -39,8 +39,15 @@ h3, .nav-links a, .cta-btn, .faq-btn {
 }
 
 .logo {
-    font-family: 'Gilmer', sans-serif;
+    font-family: 'Aquire', sans-serif; /* Logo font */
     font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #ccc;
 }
 
 .nav-links {
