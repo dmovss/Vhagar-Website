@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vhagar ($VHG) - The Future of Digital Finance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Carme&family=Gilmer:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Vhagar ($VHG)</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#exchanges">Exchanges</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <button class="theme-toggle">☾</button>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Vhagar ($VHG): The Future of Digital Finance</h1>
+            <div class="cta-buttons">
+                <button class="cta-btn buy-btn">Buy $VHG</button>
+                <button class="cta-btn explore-btn" onclick="scrollToSection('story')">Explore Technology</button>
+            </div>
+            <div class="countdown">
+                <span>Listing In:</span>
+                <div id="timer">00:00:00:00</div>
+            </div>
+            <div class="ticker">
+                <span>Price: $<span id="price">0.85</span> | Volume: <span id="volume">12,345</span> $VHG</span>
+            </div>
+        </div>
+        <canvas id="particle-bg" class="particle-bg"></canvas>
+    </section>
+
+    <!-- Story of Vhagar -->
+    <section id="story" class="section">
+        <h2>Born for Speed. Engineered for Security. Designed for the Future.</h2>
+        <div class="benefits">
+            <div class="benefit-card">💎 Secure & Audited</div>
+            <div class="benefit-card">⚡ Lightning Fast</div>
+            <div class="benefit-card">🌍 Globally Scalable</div>
+            <div class="benefit-card">🔥 Deflationary Model</div>
+        </div>
+    </section>
+
+    <!-- Tokenomics -->
+    <section id="tokenomics" class="section">
+        <h2>Tokenomics & Utility</h2>
+        <svg id="token-chart" width="300" height="300"></svg>
+        <div class="stats">
+            <div>Circulating Supply: <span id="circ-supply">0</span></div>
+            <div>Staking Rewards: <span id="stake-rewards">0</span></div>
+        </div>
+        <button class="cta-btn stake-btn">Start Staking Now</button>
+    </section>
+
+    <!-- Roadmap -->
+    <section id="roadmap" class="section">
+        <h2>Roadmap</h2>
+        <div class="timeline">
+            <div class="milestone"><span>✅ Q1 2025</span><p>Mainnet Launch</p></div>
+            <div class="milestone"><span>⚙️ Q2 2025</span><p>Staking Live</p></div>
+            <div class="milestone"><span>🌐 Q3 2025</span><p>Global Expansion</p></div>
+        </div>
+        <button class="cta-btn" onclick="scrollToSection('faq')">Follow Development</button>
+    </section>
+
+    <!-- Exchanges -->
+    <section id="exchanges" class="section">
+        <h2>Exchange Listings</h2>
+        <div class="exchange-grid">
+            <div class="exchange-card">💱 Binance</div>
+            <div class="exchange-card">📈 Coinbase</div>
+            <div class="exchange-card">🏦 Kraken</div>
+        </div>
+        <button class="cta-btn trade-btn">Trade Now</button>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+        <h2>FAQ</h2>
+        <div class="accordion">
+            <div class="faq-item">
+                <button class="faq-btn">How do I buy $VHG?</button>
+                <div class="faq-content">Buy on listed exchanges post-launch.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-btn">Is it secure?</button>
+                <div class="faq-content">Yes, fully audited and encrypted.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community -->
+    <section id="community" class="section">
+        <h2>Join the Community</h2>
+        <div class="socials">
+            <a href="#" class="social-btn">💬</a>
+            <a href="#" class="social-btn">📩</a>
+            <a href="#" class="social-btn">🐦</a>
+        </div>
+        <form class="newsletter">
+            <input type="email" placeholder="Subscribe for Updates" required>
+            <button type="submit">→</button>
+        </form>
+    </section>
+
+    <!-- Back to Top -->
+    <button id="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
