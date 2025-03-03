@@ -117,7 +117,6 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
     });
 });
 
-// Back to Top
 const backToTop = document.getElementById('back-to-top');
 window.addEventListener('scroll', () => {
     backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
