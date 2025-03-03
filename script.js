@@ -109,7 +109,6 @@ const tokenObserver = new IntersectionObserver(entries => {
 }, { threshold: 0.5 });
 tokenObserver.observe(document.getElementById('tokenomics'));
 
-// FAQ Accordion
 document.querySelectorAll('.faq-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         const content = btn.nextElementSibling;
